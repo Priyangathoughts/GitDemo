@@ -1,5 +1,5 @@
 Feature: OMRBranch Hotel Booking Details Automation
-
+  @BookHotel
   Scenario Outline: Verify book hotel incluting GST-Card(debit card-Visa)with Special request
     Given User is on the OMRBranch hotel page
     When User login "<UserName>","<PassWord>"
