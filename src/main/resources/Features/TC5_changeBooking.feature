@@ -1,5 +1,5 @@
 Feature: Verifying OMR Branch Hotel Explore Hotel Automation
-  @changebooking
+  @ChangeBooking
   Scenario Outline: Verifying change Booking module by changing CheckInDate for created OrderId
     Given User is on the OMR Branch Hotel Page
     When User Login "<Username>","<Password>"

@@ -1,5 +1,5 @@
 Feature: Verifying OMR Branch Hotel Select Hotel Automation
-  @SelectHotel
+@SelectHotel
   Scenario Outline: Verifying select hotel and navigate to book hotel upon accepting the alert
     Given User is on the OMR Branch Hotel Page
     When User Login "<UserName>","<PassWord>"
