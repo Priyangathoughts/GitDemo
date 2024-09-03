@@ -1,5 +1,5 @@
 Feature: Verifying OMR Branch Hotel Explore Hotel Automation
-
+ @ExploreHotel
  Scenario Outline: Verifying select hotel by entering all the fields
     Given User is on the OMR Branch Hotel Page
     When User Login "<UserName>","<PassWord>"

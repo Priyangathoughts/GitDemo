@@ -1,5 +1,5 @@
 Feature: Verifying OMR Branch Cancel Book hotel Details Automation
-
+  @CancelBooking
   Scenario Outline: Verifying cancel Booking module by changing checkInDate for created orderId
     Given User is on the OMR Branch hotel page
     When User login "<UserName>","<PassWord>" with Enter key
